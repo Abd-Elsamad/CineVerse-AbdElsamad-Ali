@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CineVerse | AbdElsamad Ali</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+    <!--Loading Screen -->
+
+<div class="loader">
+
+    <div class="spinner"></div>
+
+</div>
+
+    <div class="dashboard">
+
+        <aside class="sidebar">
+
+<div class="logo">
+
+    <i class="fa-solid fa-film"></i>
+
+    <h2>CineVerse</h2>
+
+</div>
+
+
+
+<!--  Navigation Menu -->
+
+<nav class="menu">
+
+    <a href="#" class="menu-item active">
+
+        <i class="fa-solid fa-house"></i>
+
+        <span>Home</span>
+
+    </a>
+
+
+    <!-- Movies -->
+    <a href="#" class="menu-item">
+
+        <i class="fa-solid fa-video"></i>
+
+        <span>Movies</span>
+
+    </a>
+
+
+    <!-- TV Shows -->
+    <a href="#" class="menu-item">
+
+        <i class="fa-solid fa-tv"></i>
+
+        <span>TV Shows</span>
+
+    </a>
+
+
+    <!-- Favorites -->
+    <a href="#" class="menu-item">
+
+        <i class="fa-solid fa-heart"></i>
+
+        <span>Favorites</span>
+
+    </a>
+
+
+    <!-- Trending -->
+    <a href="#" class="menu-item">
+
+        <i class="fa-solid fa-fire"></i>
+
+        <span>Trending</span>
+
+    </a>
+
+
+    <!-- Settings -->
+    <a href="#" class="menu-item">
+
+        <i class="fa-solid fa-gear"></i>
+
+        <span>Settings</span>
+
+    </a>
+
+</nav>
+
+
+
+<!-- User Profile -->
+
+<div class="profile">
+
+    <!-- صورة المستخدم -->
+    <img
+        src="images/profile.jpg"
+        alt="Profile"
+    >
+
+    <!-- بيانات المستخدم -->
+    <div class="profile-info">
+
+        <h3>Smedo</h3>
+
+        <p>Frontend Developer</p>
+
+    </div>
+
+</div>
+        </aside>
+
+        <main class="main-content">
+            <!--Top Header-->
+
+<header class="top-header">
+
+    <!-- عنوان الصفحة -->
+    <div class="page-title">
+
+        <h1>Discover Movies</h1>
+
+        <p>Find your favorite movies and TV shows.</p>
+
+    </div>
+
+
+    <!-- الجزء الأيمن -->
+    <div class="header-actions">
+
+        <div class="search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search movie..."
+            >
+
+        </div>
+
+
+        <button class="notification-btn">
+
+            <i class="fa-solid fa-bell"></i>
+
+        </button>
+
+    </div>
+
+</header>
+<!-- =====================================
+     Hero Banner
+===================================== -->
+
+<section class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <span class="movie-category">
+
+            Action • Adventure
+
+        </span>
+
+        <h1 class="movie-title">
+
+            Avatar : The Way of Water
+
+        </h1>
+
+        <div class="movie-meta">
+
+            <span>
+
+                ⭐ 8.7
+
+            </span>
+
+            <span>
+
+                2022
+
+            </span>
+
+            <span>
+
+                3h 12m
+
+            </span>
+
+        </div>
+
+        <!-- وصف الفيلم -->
+        <p class="movie-description">
+
+            Jake Sully lives with his newfound family formed on the planet Pandora.
+
+        </p>
+
+        <!-- الأزرار -->
+        <div class="hero-buttons">
+
+            <button class="watch-btn">
+
+                <i class="fa-solid fa-play"></i>
+
+                Watch Now
+
+            </button>
+
+            <button class="favorite-btn">
+
+                <i class="fa-solid fa-heart"></i>
+
+                Add Favorite
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =====================================
+     Trending Movies
+===================================== -->
+
+<section class="movies-section">
+
+    <!-- عنوان القسم -->
+    <div class="section-header">
+
+        <h2>
+
+            Trending Movies
+
+        </h2>
+
+        <a href="#">
+
+            View All
+
+        </a>
+
+    </div>
+
+
+    <!-- شبكة الأفلام -->
+
+    <div class="movies-grid">
+
+        <!-- Movie Card 1 -->
+
+        <div class="movie-card">
+
+            <img
+                src="images/movie-1.jpg"
+                alt="Movie"
+            >
+
+            <div class="movie-info">
+
+                <span class="rating">
+
+                    ⭐ 8.7
+
+                </span>
+
+                <h3>
+
+                    Avatar
+
+                </h3>
+
+                <p>
+
+                    Action • Adventure
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Movie Card 2 -->
+
+        <div class="movie-card">
+
+            <img
+                src="images/movie-2.jpg"
+                alt="Movie"
+            >
+
+            <div class="movie-info">
+
+                <span class="rating">
+
+                    ⭐ 8.5
+
+                </span>
+
+                <h3>
+
+                    Batman
+
+                </h3>
+
+                <p>
+
+                    Crime • Action
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Movie Card 3 -->
+
+        <div class="movie-card">
+
+            <img
+                src="images/movie-3.jpg"
+                alt="Movie"
+            >
+
+            <div class="movie-info">
+
+                <span class="rating">
+
+                    ⭐ 8.9
+
+                </span>
+
+                <h3>
+
+                    Oppenheimer
+
+                </h3>
+
+                <p>
+
+                    Drama
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Movie Card 4 -->
+
+        <div class="movie-card">
+
+            <img
+                src="images/movie-4.jpg"
+                alt="Movie"
+            >
+
+            <div class="movie-info">
+
+                <span class="rating">
+
+                    ⭐ 8.8
+
+                </span>
+
+                <h3>
+
+                    Dune II
+
+                </h3>
+
+                <p>
+
+                    Sci-Fi
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+        </main>
+
+        <aside class="right-sidebar">
+<!-- =====================================
+     User Card
+===================================== -->
+
+<div class="user-card">
+
+    <!-- صورة المستخدم -->
+    <img
+        src="images/avatar.jpg"
+        alt="User"
+    >
+
+    <!-- بيانات المستخدم -->
+    <h3>Smedo</h3>
+
+    <p>Frontend Developer</p>
+
+</div>
+
+
+
+<!-- =====================================
+     Continue Watching
+===================================== -->
+
+<div class="watch-card">
+
+    <h2>
+
+        Continue Watching
+
+    </h2>
+
+    <img
+        src="images/continue-watch.jpg"
+        alt="Movie"
+    >
+
+    <h3>
+
+        Interstellar
+
+    </h3>
+
+    <span>
+
+        1h 45m watched
+
+    </span>
+
+    <div class="progress">
+
+        <div class="progress-bar"></div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================
+     Statistics
+===================================== -->
+
+<div class="stats">
+
+    <h2>
+
+        Statistics
+
+    </h2>
+
+    <div class="stat-item">
+
+        <span>
+
+            Movies
+
+        </span>
+
+        <strong>
+
+            120
+
+        </strong>
+
+    </div>
+
+    <div class="stat-item">
+
+        <span>
+
+            TV Shows
+
+        </span>
+
+        <strong>
+
+            58
+
+        </strong>
+
+    </div>
+
+    <div class="stat-item">
+
+        <span>
+
+            Favorites
+
+        </span>
+
+        <strong>
+
+            23
+
+        </strong>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================
+     Favorite Genres
+===================================== -->
+
+<div class="genres">
+
+    <h2>
+
+        Favorite Genres
+
+    </h2>
+
+    <div class="genre-list">
+
+        <span>Action</span>
+
+        <span>Adventure</span>
+
+        <span>Sci-Fi</span>
+
+        <span>Drama</span>
+
+    </div>
+
+</div>
+        </aside>
+
+    </div>
+<!-- =====================================
+     Movie Modal
+===================================== -->
+
+<div class="movie-modal">
+
+    <div class="modal-content">
+
+        <span class="close-modal">&times;</span>
+
+        <img class="modal-image" src="" alt="">
+
+        <h2 class="modal-title"></h2>
+
+        <div class="modal-rating"></div>
+
+        <div class="modal-date"></div>
+
+        <p class="modal-description"></p>
+
+        <button class="favorite-btn-modal">
+
+            ❤️ Add Favorite
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

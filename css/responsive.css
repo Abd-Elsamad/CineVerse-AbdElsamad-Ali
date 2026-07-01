@@ -1,0 +1,340 @@
+/* ==========================================
+   RESPONSIVE DESIGN
+========================================== */
+
+
+
+/* ==========================================
+   Large Laptop
+   أقل من 1200px
+========================================== */
+
+@media (max-width:1200px){
+
+    .dashboard{
+
+        grid-template-columns:220px 1fr 260px;
+
+    }
+
+    .movie-title{
+
+        font-size:42px;
+
+    }
+
+    .movies-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+}
+
+
+
+/* ==========================================
+   Tablet
+   أقل من 992px
+========================================== */
+
+@media (max-width:992px){
+
+    .dashboard{
+
+        grid-template-columns:220px 1fr;
+
+    }
+
+    /* إخفاء الـ Right Sidebar */
+
+    .right-sidebar{
+
+        display:none;
+
+    }
+
+    .top-header{
+
+        flex-wrap:wrap;
+
+        gap:20px;
+
+    }
+
+    .search-box{
+
+        width:100%;
+
+    }
+
+    .hero{
+
+        padding:40px;
+
+        height:380px;
+
+    }
+
+    .movie-title{
+
+        font-size:38px;
+
+    }
+
+    .movies-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+
+/* ==========================================
+   Mobile
+   أقل من 768px
+========================================== */
+
+@media (max-width:768px){
+
+    /* عمود واحد */
+
+    .dashboard{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* إخفاء الـ Sidebar */
+
+    .sidebar{
+
+        display:none;
+
+    }
+
+    .main-content{
+
+        padding:20px;
+
+    }
+
+    .top-header{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:20px;
+
+    }
+
+    .header-actions{
+
+        width:100%;
+
+    }
+
+    .search-box{
+
+        width:100%;
+
+    }
+
+    .page-title h1{
+
+        font-size:30px;
+
+    }
+
+    .hero{
+
+        height:auto;
+
+        padding:35px 25px;
+
+    }
+
+    .movie-title{
+
+        font-size:32px;
+
+    }
+
+    .movie-meta{
+
+        flex-wrap:wrap;
+
+        gap:10px;
+
+    }
+
+    .movie-description{
+
+        font-size:15px;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        width:100%;
+
+    }
+
+    .watch-btn,
+    .favorite-btn{
+
+        width:100%;
+
+    }
+
+    .section-header{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:10px;
+
+    }
+
+    .movies-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:20px;
+
+    }
+
+}
+
+
+
+/* ==========================================
+   Small Mobile
+   أقل من 576px
+========================================== */
+
+@media (max-width:576px){
+
+    .main-content{
+
+        padding:15px;
+
+    }
+
+    .page-title h1{
+
+        font-size:26px;
+
+    }
+
+    .page-title p{
+
+        font-size:14px;
+
+    }
+
+    .hero{
+
+        padding:25px 20px;
+
+        border-radius:18px;
+
+    }
+
+    .movie-category{
+
+        font-size:14px;
+
+    }
+
+    .movie-title{
+
+        font-size:26px;
+
+    }
+
+    .movie-meta{
+
+        font-size:14px;
+
+    }
+
+    .movie-description{
+
+        font-size:14px;
+
+        line-height:1.6;
+
+    }
+
+    .movies-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .movie-card img{
+
+        height:360px;
+
+    }
+
+    .section-header h2{
+
+        font-size:24px;
+
+    }
+
+}
+
+
+
+/* ==========================================
+   Very Small Devices
+   أقل من 400px
+========================================== */
+
+@media (max-width:400px){
+
+    .hero{
+
+        padding:20px 15px;
+
+    }
+
+    .movie-title{
+
+        font-size:22px;
+
+    }
+
+    .watch-btn,
+    .favorite-btn{
+
+        padding:14px;
+
+        font-size:15px;
+
+    }
+
+    .search-box{
+
+        padding:12px 15px;
+
+    }
+
+    .notification-btn{
+
+        width:45px;
+
+        height:45px;
+
+    }
+
+}
